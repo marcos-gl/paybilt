@@ -15,6 +15,19 @@
     background-repeat: no-repeat;
     background-position: bottom 110px center;
 }
+@media only screen and (max-width: 375px){
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .head{
+        width: 375px;
+        height: 667px;  
+        background-image: url('/assets/god_bg.png') ; 
+    }
+}
+
 
 .bilt{
     /* image position */
@@ -25,6 +38,19 @@
     width: 212px;
     height: 53px;
     background-image: url('/assets/paybilt_logo_black.png');
+}
+
+@media only screen and (max-width: 375px){
+    .bilt{
+        width: 50%;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-image: url('/assets/paybilt_logo_black.png');
+
+        position: absolute;
+        top: 12px;
+        left: 21px;
+    }
 }
 
 .red{

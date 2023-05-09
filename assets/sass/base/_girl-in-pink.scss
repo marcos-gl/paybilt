@@ -1,6 +1,6 @@
 .girl{
     width: 1920px;
-    height: 2599px;
+    height: 2699px;
 
     background-image: url('/assets/rectangle.png');
 }
@@ -39,19 +39,26 @@
 #needle{
     position: relative;
     bottom: 900px;
-    left: 850px;
+    left: 930px;
 }
 
-#get-in-touch{
+.get-in-touch{
+    width: 800px;
     position: relative;
-    bottom: 750px;
-    left: 530px;
+    bottom: 880px;
+    left: 650px;
+
+
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 4em;
 }
 
 #paybilt-for-you{
     position: relative;
-    bottom: 650px;
-    right: 70px;
+    bottom: 850px;
+    left: 650px;
 }
 
 .gray-box{
@@ -64,62 +71,107 @@
 
     position: relative;
     bottom: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+
 }
 
-#name{
+.gray-box input{
+    width: 100%;
+    background: transparent;
+
+    color: white;
+
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+
+.input-name{
     position: relative;
-    top: 180px;
-    left: 338px;
+    left: 300px;
+    bottom: 150px;
+    width: 800px;
 }
 
-#line-1{
-    width: 1228px;
-
+.input-email{
     position: relative;
-    top: 350px;
-    left: 250px;
+    left: 700px;
+    bottom: 150px;
+    width: 800px;
 }
 
-#line-2{
+.input-message{
+    width: 1200px;
+    
+    position: relative;
+    right: 370px;
+    top: 50px;
+}
+
+.gray-box span{
+
+    font-family: 'Roboto', sans-serif ;
+    color: white;
+
+    padding: 10px 0 5px;
+    position: relative;
+    bottom: 40px;
+
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    pointer-events: none;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    font-size: 1.05em;
+}
+
+.gray-box input:valid ~ span,
+.gray-box input:focus ~ span{
+    color: rgb(0, 0, 0);
+    font-size: 0.90em;
+}
+
+.gray-box i{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.button-yellow{
     position: relative;
     top: 200px;
-    right: 290px;
+    left: 200px;
+
+
+    border-radius: 50px;
+
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    background: #FFFC30;
 }
 
-#line-3{
+.text-final{
     position: relative;
-    top: 129px;
-    left: 340px;
-}
+    right: 1100px;
+    top: 210px;
 
-#mail{
-    position: relative;
-    top: 109px;
-    left: 490px;
-}
+    color: white;
 
-#message{
-    position: relative;
-    top: 250px;
-    right: 308px;
-}
-
-#problems{
-    position: relative;
-    top: 400px;
-    right: 540px;
-}
-
-#yellow{
-    position: relative;
-    top: 360px;
-    left: 1300px;
-}
-
-#submit{
-    position: relative;
-    top: 413px;
-    right: 145px;
-
-    z-index: 1;
+    width:1500px ;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
