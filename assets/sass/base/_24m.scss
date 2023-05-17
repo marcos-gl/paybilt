@@ -4,10 +4,31 @@
     background-image: url('/assets/capa4.png');
 }
 
+@media only screen and (max-width:375px){
+    .degraded{
+        width: 375px;
+        height: 231px;
+        background-image: url('/assets/capa4.png');
+        background-size: cover;
+        position: relative;
+        top: 400px;
+    }
+}
+
 #middle-cloud{
     position: relative;
     top: 400px;
     left: 250px;
+}
+
+@media only screen and (max-width:375px){
+    #middle-cloud{
+        width: 200px;
+        height: 90px;
+        position: relative;
+        top:50px;
+        left: 85px;
+    }
 }
 
 .bottom-bar{
@@ -27,6 +48,18 @@
     background-image: url('/assets/izquierdacloudbottomcopia22.png');
 }
 
+@media only screen and (max-width:375px){
+    .left-cloud{
+        width: 150px;
+        height: 85px;
+        background-size: cover;
+        background-image: url('/assets/izquierdacloudbottomcopia22.png');
+        position: relative;
+        bottom: 150px;
+
+    }
+}
+
 .right-cloud{
     width: 1019px;
     height: 400px;
@@ -38,10 +71,37 @@
     background-image: url('/assets/derechacloudbottomcopia1.png');
 }
 
+@media only screen and (max-width:375px){
+    .right-cloud{
+        width: 150px;
+        
+        margin-left: 0px;
+
+        background-size: cover;
+        background-image: url('/assets/derechacloudbottomcopia1.png');
+        position: relative;
+        bottom: 220px;
+        left: 75px;
+
+        z-index: 0;
+    }
+}
+
 .black{
     width: 1920px;
     height: 2599px;
     background-image: url('/assets/rectangle.png');
+}
+
+@media only screen and (max-width:375px){
+    .black{
+        width: 375px;
+        height: 507px;
+        position: relative;
+        top: 903px;
+
+        background-image: url('/assets/rectangle.png');
+    }
 }
 
 #perk{
@@ -50,10 +110,31 @@
     bottom: 1020px;
 }
 
+@media only screen and (max-width:375px){
+    #perk{
+        width: 280px;
+
+        position: relative;
+        left: 50px;
+        bottom: 800px;
+        z-index: 10;
+    }
+}
+
 #m{
     position: relative;
     right: 530px;
     bottom: 1000px;
+}
+
+@media only screen and (max-width:375px){
+    #m{
+        width: 250px;
+        position: relative;
+        left: 50px;
+        bottom: 950px;
+        z-index: 11;
+    }
 }
 
 #active{
@@ -62,8 +143,29 @@
     bottom: 1280px;
 }
 
+@media only screen and (max-width:375px){
+    #active{
+        width: 150px;
+        position: relative;
+        left: 100px;
+        bottom: 1000px;
+
+        z-index: 10;
+    }
+}
+
 #over{
     position: relative;
     right:250px;
     bottom: 1050px;
+}
+
+@media only screen and (max-width:375px){
+    #over{
+        width: 150px;
+        position: relative;
+        bottom: 950px;
+        right: 55px;
+        z-index: 10;
+    }
 }

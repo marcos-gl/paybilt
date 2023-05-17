@@ -5,6 +5,23 @@
     background-image: url('/assets/rectangle.png');
 }
 
+@media only screen and (max-width:375px){
+    .girl{
+        width: 375px;
+        height: 2900px;
+        position: relative;
+        bottom: 105px;
+        background-image: url('/assets/rectangle.png');
+    }
+
+    #pink-dress-girl{
+        width: 380px;
+
+        position: relative;
+        top: 500px;
+    }
+}
+
 #paybil{
     position: relative;
     bottom: 1130px;
@@ -36,6 +53,48 @@
     left: 420px;
 }
 
+@media only screen and (max-width:375px){
+    #paybil{
+        width: 150px;
+
+        position: relative;
+        bottom: 100px;
+        left: 40px;
+    }
+
+    #obvius{
+        width: 300px;
+
+        position: relative;
+        bottom: 150px;
+        left: 35px;
+    }
+
+    #asset{
+        width: 80px;
+
+        position: relative;
+        bottom: 300px;
+        left: 300px;
+    }
+
+    #choice{
+        width: 250px;
+
+        position: relative;
+        bottom: 400px;
+        left: 35px;
+    }
+
+    #busines{
+        width: 200px;
+
+        position: relative;
+        bottom: 380px;
+        left: 90px;
+    }
+}
+
 #needle{
     position: relative;
     bottom: 900px;
@@ -59,6 +118,33 @@
     position: relative;
     bottom: 850px;
     left: 650px;
+}
+
+@media only screen and (max-width:375px){
+    #needle{
+        width: 40px;
+
+        position: relative;
+        bottom: 10px;
+        left: 160px;
+    }
+
+    .get-in-touch{
+        width: 250px;
+        font-size: 20px;
+
+        position: relative;
+        bottom: -20px;
+        left: 80px;
+    }
+
+    #paybilt-for-you{
+        width: 200px;
+
+        position: relative;
+        bottom: -40px;
+        left: 80px;
+    }
 }
 
 .gray-box{
@@ -174,4 +260,72 @@
     width:1500px ;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:375px){
+    .gray-box{
+        width: 300px;
+        height: 594px;
+
+        border-radius: 30px;
+    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('/assets/Rectangle\ 547.png');
+    
+        position: relative;
+        top: 80px;
+        left: 37px;
+    } 
+
+    .input-name{
+        position: relative;
+        left: 38px;
+        bottom: 230px;
+    }
+    
+    .input-email{
+        position: relative;
+        left: -60px;
+        bottom: 110px;
+    }
+    
+    .input-message{      
+        position: relative;
+        left: -150px;
+        top: 10px;
+    }
+
+    .gray-box i{
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+    
+        width: 240px;
+        height: 2px;
+        background: white;
+    }
+
+    .button-yellow{
+        position: absolute;
+        top: 400px;
+        left: 60px;
+    
+    
+        border-radius: 50px;
+    
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .text-final {
+        position: absolute;
+        right: 40px;
+        top: 500px;
+    
+        width: 200px;
+        height: 100px;
+        font-size: 15px;
+    }
 }

@@ -4,6 +4,17 @@
     background-image: url('/assets/rectangle.png');
 }
 
+@media only screen and (max-width:375px){
+    .black-box{
+        width: 375px;
+        height: 505px;
+        background-image: url('/assets/rectangle.png');
+        margin-bottom: 500px;
+        position: relative;
+        bottom: 108px;
+    }
+}
+
 .degraded2{
     width: 1794px;
     height: 1049px;
@@ -12,6 +23,20 @@
 
     position: relative;
     left: 50px;
+}
+
+@media only screen and (max-width:375px){
+    .degraded2{
+        width: 300px;
+        height: 175px;
+    
+        background-image: linear-gradient(#000000b0, #000000b0),url('/assets/rectangle545.png');
+        background-size: cover;
+        position: relative;
+        top: 580px;
+        left: 35px;
+    }
+    
 }
 
 .degraded2 h1{
@@ -26,22 +51,52 @@
     font-size: 5em;
 }
 
+
 .degraded2 p{
     width: 900px;
-
+    
     position: relative;
     left: 900px;
     top: 150px;
-
+    
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
 }
 
+@media only screen and (max-width:375px){
+    .degraded2 h1{
+        width: 150px;
+        font-size: 1em;
+        left: 80px;
+
+        position: relative;
+        top: -15px;
+    }
+
+    .degraded2 p{
+        width: 180px;
+
+        position: relative;
+        top: 20px;
+        left: 70px;
+        
+        font-size: 0.2em;
+    }
+}
 #pain{
     position: relative;
     left: 1355px;
     top: 150px;
+}
+
+@media only screen and (max-width:375px){
+    #pain{
+        width: 50px;
+        position: relative;
+        left: 170px;
+        top: 10px;
+    }
 }
 
 .music-band{
@@ -49,6 +104,19 @@
     height: 969px;
 
     background-image: url('/assets/group687.png');
+}
+
+@media only screen and (max-width:375px){
+    .music-band{
+        width: 375px;
+        height: 189px;
+
+        position: relative;
+        top: 600px;
+
+        background-image: url('/assets/group687.png');
+        background-size: cover;
+    }
 }
 
 .payments-disbursements{
@@ -68,10 +136,40 @@
 
 }
 
+@media only screen and (max-width:375px){
+    .payments-disbursements{
+        position: relative;
+        left: 0px;
+        top: 138px;
+    }
+
+    .payments-disbursements h1{
+        position: relative;
+        left: 40px;
+
+        color: white;
+        font-size: 1em;
+        position: relative;
+        top: -30px;
+
+        margin-right: 90px;
+    }
+}
+
 #below{
     position: relative;
     right: 1170px;
     top: 600px;
+}
+
+@media only screen and (max-width:375px){
+    #below{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -30px;
+        left: -250px;
+    }
 }
 
 #above{
@@ -80,11 +178,31 @@
     right: 300px;
 }
 
+@media only screen and (max-width:375px){
+    #above{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -30px;
+        left: -70px;
+    }
+}
+
 .sponsors{
     position: relative;
     top: 630px;
 
     display: flex;
+}
+
+@media only screen and (max-width:375px){
+    .sponsors{
+        width: 375px;
+        position: relative;
+        top: 100px;
+        
+        display: flex;
+    }
 }
 
 .sponsors1{
@@ -96,6 +214,22 @@
     padding: 0 70px 0 70px;
 }
 
+@media only screen and (max-width:375px){
+
+    .sponsors1{
+        display: flex;
+        position: relative;
+        left: 30px;
+        top: 30px;
+    }
+
+    .sponsors1 img{
+        width: 20px;
+        height: 20px;
+        padding: 0 10px 0 10px;
+    }
+}
+
 .sponsor2{
     position: relative;
     left: 250px;
@@ -103,6 +237,21 @@
 
 .sponsor2 img{
     padding: 0 70px 0 70px;
+}
+
+@media only screen and (max-width:375px){
+    .sponsor2{
+        display: flex;
+        position: relative;
+        left: 72px;
+        top: 30px;
+    }
+
+    .sponsor2 img{
+        width: 20px;
+        height: 20px;
+        padding: 0 10px 0 10px;
+    }
 }
 
 .own-names{
@@ -125,6 +274,34 @@
     margin-left: 10px;
 }
 
+@media only screen and (max-width:375px){
+    .own-names{
+        display: flex;
+    }
+
+    .payments{
+        display: flex;
+
+        height: 50px;
+
+        position: relative;
+        left: 40px;
+        top: 140px;
+    }
+
+    .payments img{
+        width: 25px;
+        height: 5px;
+
+        padding: 0 13px 0 0;
+    }
+
+    #cheque{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
 .disbursements{
     position: relative;
     left: 350px;
@@ -145,4 +322,21 @@
 
 #master{
     margin-bottom: 15px;
+}
+
+@media only screen and (max-width:375px){
+    .disbursements{
+        display: flex;
+
+        position: relative;
+        left: 90px;
+        top: 140px;
+    }
+
+    .disbursements img{
+        width: 20px;
+        height: 5px;
+
+        padding: 0 20px 0 0;
+    }
 }

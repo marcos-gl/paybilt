@@ -3,10 +3,29 @@
     left: 900px;
 }
 
+@media only screen and (max-width:375px){
+    .circle img{
+        position: absolute;
+        left: 150px;
+        top: 700px;
+    }
+}
+
 .brush{
     position: absolute;
     left: 100px;
     padding: 50px 0 0 0;
+}
+
+@media only screen and (max-width:375px){
+    .brush img{
+        width: 350px;
+
+        position: absolute;
+        left: -60px;
+        top: 400px;
+        padding: 50px 0 0 0;
+    } 
 }
 
 #group2{
@@ -15,9 +34,26 @@
     padding: 200px 0 0 0;
 }
 
+@media only screen and (max-width:375px){
+    #group2{
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 550px;
+    }
+}
+
 #scroll{
     position: relative;
     left: 1000px;
     padding: 450px 0 0 0;
 }
 
+@media only screen and (max-width:375px){
+    #scroll{
+        width: 300px;
+        position: relative;
+        left: 50px;
+        top: 350px;
+    }
+}

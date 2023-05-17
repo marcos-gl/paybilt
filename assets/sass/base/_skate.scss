@@ -12,16 +12,44 @@
     z-index: 1;
 }
 
+@media only screen and (max-width:375px){
+    #skate1{
+        width: 300px;
+        left: 25px;
+        top: 200px;
+    }
+}
+
 #canadias{
     position: relative;
     bottom: 700px;
     left: 150px;
 }
 
+@media only screen and (max-width:375px){
+    #canadias{
+        width: 250px;
+        position: relative;
+        bottom: 150px;
+        left: 50px;
+        z-index: 1;
+    }
+}
+
 #consumers{
     position: relative;
     right: 580px;
     bottom: 500px;
+}
+
+@media only screen and (max-width:375px){
+    #consumers{
+        width: 200px;
+        position: relative;
+        left: 50px;
+        bottom:150px;
+        z-index: 1;
+    }
 }
 
 .proff{
@@ -31,8 +59,25 @@
     left: 550px;
 }
 
+@media only screen and (max-width:375px){
+    .proff{
+        width: 375px;
+        left: 0px;
+    }
+}
+
 #prof{
     width: 900px;
+}
+
+@media only screen and (max-width:375px){
+    #prof{
+        width: 200px;
+        position: relative;
+        bottom: -10px;
+        right: -85px;
+        z-index: 1;
+    }
 }
 
 #arrow{
@@ -40,4 +85,13 @@
     position: relative;
     top: 70px;
     left: 380px;
+}
+
+@media only screen and (max-width:375px){
+    #arrow{
+        width: 30px;
+        position: relative;
+        left: -40px;
+        top: 55px;
+    }
 }

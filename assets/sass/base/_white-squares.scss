@@ -3,6 +3,16 @@
     display: flex;
 }
 
+@media only screen and (max-width:375px){
+    .white-squares{
+        width: 375px;
+        display: block;
+
+        position: relative;
+        bottom: 105px;
+    }
+}
+
 .block1{
     width: 384px;
     height:275px;
@@ -36,6 +46,28 @@
     height:275px;
     background-color: white;
     border-style:solid;
+}
+
+@media only screen and (max-width:375px){
+    .block1{
+        width: 375px;
+    }
+
+    .block2{
+        width: 375px;
+    }
+
+    .block3{
+        width: 375px;
+    }
+
+    .block4{
+        width: 375px;
+    }
+
+    .block5{
+        width: 375px;
+    }
 }
 
 #levels{

@@ -7,10 +7,28 @@
 
 }
 
+@media only screen and (max-width:375px){
+    .footer{
+        width: 375px;
+        position: relative;
+        top: 100px;
+    }
+}
+
 #group{
     position: relative;
     bottom: 200px;
     left: 120px;
+}
+
+@media only screen and (max-width:375px){
+    #group{
+        width: 150px;
+
+        position: relative;
+        top: 40px;
+        left: 110px;
+    }
 }
 
 #paybilt-canada{
@@ -19,10 +37,31 @@
     right: 1100px;
 }
 
+@media only screen and (max-width:375px){
+    #paybilt-canada{
+        width: 250px;
+
+        position: relative;
+        left: -10px;
+        top: 350px;
+
+    }
+}
+
 #our-payment{
     position: relative;
     bottom: 180px;
     left: 500px;
+}
+
+@media only screen and (max-width:375px){
+    #our-payment{
+        width: 130px;
+
+        position: relative;
+        left: -140px;
+        top: 120px;
+    }
 }
 
 #useful-links{
@@ -31,10 +70,30 @@
     left: 570px;
 }
 
+@media only screen and (max-width:375px){
+    #useful-links{
+        width: 110px;
+
+        position: relative;
+        left: 245px;
+        top: 90px;
+    }
+}
+
 #payment-png{
     position: relative;
     bottom: 180px;
     left: 640px;
+}
+
+@media only screen and (max-width:375px){
+    #payment-png{
+        width: 100px;
+
+        position: relative;
+        left: -100px;
+        top: 400px;
+    }
 }
 
 #company{
@@ -43,10 +102,28 @@
     left: 710px;
 }
 
+@media only screen and (max-width:375px){
+    #company{
+        position: relative;
+        left: 30px;
+        top: 400px;
+    }
+}
+
 #send{
     position: relative;
     top: 150px;
     right: 60px;
+}
+
+@media only screen and (max-width:375px){
+    #send{
+        width: 130px;
+
+        position: relative;
+        left: 20px;
+        top: 120px;
+    }
 }
 
 #support-business{
@@ -55,16 +132,42 @@
     left: 30px;
 }
 
+@media only screen and (max-width:375px){
+    #support-business{
+        width: 130px;
+
+        position: relative;
+        top: 25px;
+        left: 100px;
+    }
+}
+
 #send-receive{
     position: relative;
     bottom: 10px;
     left: 85px;
 }
 
+@media only screen and (max-width:375px){
+    #send-receive{
+        position: relative;
+        left: -250px;
+        top: 350px;
+    }
+}
+
 #about-careers{
     position: relative;
     bottom: 50px;
     left: 200px;
+}
+
+@media only screen and (max-width:375px){
+    #about-careers{
+        position: relative;
+        top: 240px;
+        left: 250px;
+    }
 }
 
 #terms-and-conditions{
@@ -77,4 +180,22 @@
     position: relative;
     top: 105px;
     left: 1500px;
+}
+
+@media only screen and (max-width:375px){
+    #terms-and-conditions{
+        width: 130px;
+
+        position: relative;
+        top: 400px;
+        right: -200px;
+    }
+    
+    #privacy-policy{
+        width: 80px;
+
+        position: relative;
+        top: 400px;
+        left: -80px;
+    }
 }
