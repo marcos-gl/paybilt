@@ -5,6 +5,17 @@
     margin: 0;
 }
 
+@media only screen and (min-width: 2560px) and (max-width:3840px){
+    body{
+        margin-left: 340px;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (max-width:3840px){
+    body{
+        margin-left: 950px;
+    }
+}
 
 .head{
     /* image size */
@@ -53,6 +64,18 @@
     }
 }
 
+@media only screen and (min-width: 2560px) and (max-width:3840px){
+    .bilt{
+        margin-left: 450px;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (max-width:3840px){
+    .bilt{
+        margin-left: 980px;
+    }
+}
+
 .red{
     /* image position */
     position: absolute;
@@ -75,6 +98,18 @@
         background-image: url('/assets/spray_brush.png');
         background-size: contain;
         background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 2560px) and (max-width:3840px){
+    .red{
+        margin-left: 450px;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (max-width:3840px){
+    .red{
+        margin-left: 980px;
     }
 }
 
@@ -255,6 +290,18 @@
         position: relative;
         top: 200px;
         right: 300px;
+    }
+}
+
+@media only screen and (min-width: 2560px) and (max-width:3840px){
+    .capa{
+        margin-left:340px ;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (max-width:3840px){
+    .capa{
+        margin-left: 950px;
     }
 }
 
